@@ -1,0 +1,11 @@
+find files/arguments -type f -delete
+find files/allocation -type f -delete
+find files/checkpoints -type f -delete
+find files/detailed_results/pegasus -type f -delete
+find files/precedence_constraints -type f -delete
+find files/tasks_parameters -type f -delete
+find resultsmax -type f -delete
+find results/pegasus -type f -delete
+find workflowhub/files -type f -delete
+find workflowhub/transformed -type f -delete
+rm launch
